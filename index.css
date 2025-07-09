@@ -2,12 +2,15 @@
     font-family: "Orbitron", sans-serif;
     font-optical-sizing: auto;
     background-color: #060d1c;
-    color: #f3f5fa;
+    color: #d8dce0;
+}
+html{
+        scroll-behavior: smooth;
 }
 
 a:link,
 a:visited {
-    color: #4f97f3;
+    color: #5e9df0;
 }
 
 a:hover {
@@ -28,4 +31,28 @@ nav a {
 #navlist {
     display: flex;
     gap: 1.5rem;
+}
+pre{
+    white-space:pre-wrap;
+}
+
+#home{
+    min-height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#about{
+
+}
+.links{
+    display: flex;
+    gap: 2rem;
+}
+h1,h2{
+    color: white;
+}
+p{
+    
 }
